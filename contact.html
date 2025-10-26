@@ -1,0 +1,85 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Aurora Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page page--contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header__inner">
+      <a href="index.html" class="brand">Aurora Studio</a>
+      <input id="nav-toggle-3" type="checkbox" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle-3" class="nav-toggle-label" aria-hidden="true">
+        <span class="hamburger"></span>
+      </label>
+      <nav class="nav" role="navigation" aria-label="Main">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="contact-hero">
+      <div class="container contact-hero__inner">
+        <h1>Contact Us</h1>
+        <p class="muted">Tell us about your project — we'll get back in touch.</p>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <div class="container">
+        <form action="#" method="post" class="form" novalidate>
+          <div class="form__row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="form__row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form__row">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option>General inquiry</option>
+              <option>Project request</option>
+              <option>Careers</option>
+            </select>
+          </div>
+          <div class="form__row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6"></textarea>
+          </div>
+          <div class="form__row">
+            <button class="btn btn--primary" type="submit">Send Message</button>
+          </div>
+        </form>
+
+        <aside class="office">
+          <h3>Our Office</h3>
+          <p>Aurora Studio<br>123 Aurora Lane<br>New Delhi, India</p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Email:</strong> hello@aurorastudio.example</p>
+
+          <div class="map-placeholder" role="img" aria-label="Map placeholder">Map placeholder</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p>&copy; Aurora Studio — Design &amp; Development</p>
+      <p class="credits">Images: placeholders (SVG) · Fonts: Inter · <a href="index.html">Home</a></p>
+    </div>
+  </footer>
+</body>
+</html>
